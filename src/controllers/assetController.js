@@ -1,5 +1,5 @@
 const Asset = require('../models/Asset');
-const { getPaginationOptions } = require('../../utils/pagination');
+const { getPaginationOptions } = require('../utils/pagination');
 
 // Get all assets with pagination
 exports.getAssets = async (req, res, next) => {

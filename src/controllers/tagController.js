@@ -1,6 +1,6 @@
 const Tag = require('../models/Tag');
-const { getPaginationOptions } = require('../../utils/pagination');
-const { simulateValue } = require('../../utils/simulator');
+const { getPaginationOptions } = require('../utils/pagination');
+const { simulateValue } = require('../utils/simulator');
 
 // Get all tags with pagination
 exports.getTags = async (req, res, next) => {
